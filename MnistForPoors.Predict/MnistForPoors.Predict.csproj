@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.ML" Version="1.6.0" />
+        <PackageReference Include="System.Drawing.Common" Version="6.0.0-preview.7.21377.19" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="chlen.bmp">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="four.bmp">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="samples\*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MnistReader\MnistReader.csproj" />
+    </ItemGroup>
+
+</Project>

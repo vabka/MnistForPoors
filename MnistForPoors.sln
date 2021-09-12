@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MnistReader", "MnistReader\MnistReader.csproj", "{684AA49B-7EB7-42CE-89A5-046CCA23F45D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoaderTests", "LoaderTests\LoaderTests.csproj", "{9D1FE2A2-617B-43C6-9329-74AF0CA91B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MnistForPoors", "MnistForPoors\MnistForPoors.csproj", "{37680A5A-BEBB-4ACA-BA44-D168432BEA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MnistForPoors.Predict", "MnistForPoors.Predict\MnistForPoors.Predict.csproj", "{AA74EF7B-9D85-4C26-A5BF-1155FF82C9D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D1FE2A2-617B-43C6-9329-74AF0CA91B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1FE2A2-617B-43C6-9329-74AF0CA91B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1FE2A2-617B-43C6-9329-74AF0CA91B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1FE2A2-617B-43C6-9329-74AF0CA91B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37680A5A-BEBB-4ACA-BA44-D168432BEA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37680A5A-BEBB-4ACA-BA44-D168432BEA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37680A5A-BEBB-4ACA-BA44-D168432BEA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37680A5A-BEBB-4ACA-BA44-D168432BEA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA74EF7B-9D85-4C26-A5BF-1155FF82C9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA74EF7B-9D85-4C26-A5BF-1155FF82C9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA74EF7B-9D85-4C26-A5BF-1155FF82C9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA74EF7B-9D85-4C26-A5BF-1155FF82C9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
